@@ -1,0 +1,30 @@
+.pad-container {
+  /* colors */
+  background: #888;
+  box-shadow: inset 0px 4px 4px -2px #343434;
+
+  /* sizing */
+  min-width: 100%;
+
+  /* layout */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  border-radius: 15px;
+}
+
+.button-row {
+  /* colors */
+  background: #888;
+
+  /* sizing */
+  min-width: 100%;
+
+  /* layout */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}

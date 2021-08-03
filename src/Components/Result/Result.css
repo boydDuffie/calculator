@@ -1,0 +1,29 @@
+.result {
+  /* colors */
+  border: 1px solid black;
+  background: #333;
+  box-shadow: inset -5px 5px 2px #111;
+
+  /* sizing */
+  min-height: 5rem;
+  min-width: 80%;
+
+  /* layout */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2.5rem 0;
+}
+
+.res-value {
+  /* font */
+  font-size: 4rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: #eee;
+
+  /* layout */
+  margin: 0;
+  padding: 0.5rem 1rem 0 0;
+}

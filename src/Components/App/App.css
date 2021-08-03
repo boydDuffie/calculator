@@ -1,0 +1,31 @@
+body {
+  /* colors */
+  background: #111;
+
+  /* sizing */
+  min-height: 100vh;
+
+  /* layout */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  /* layout */
+  position: fixed;
+  margin: 10%;
+}
+
+.calc-body {
+  background: linear-gradient(to bottom, #444, #888);
+  box-shadow: -6px 6px 0px 4px #333;
+  min-height: 70vh;
+  min-width: 45vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
