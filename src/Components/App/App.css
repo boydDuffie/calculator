@@ -21,7 +21,7 @@ body {
 .calc-body {
   background: linear-gradient(to bottom, #444, #888);
   box-shadow: -6px 6px 0px 4px #333;
-  min-height: 70vh;
+  /* min-height: 70vh; */
   min-width: 45vw;
   display: flex;
   flex-flow: column nowrap;
