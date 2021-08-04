@@ -1,6 +1,6 @@
 {
   "name": "calc",
-  "homepage": "https://boydduffie.github.io/calculator/",
+  "homepage": "https://boydduffie.github.io/calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
