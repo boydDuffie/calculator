@@ -6,7 +6,7 @@
 
   /* sizing */
   min-height: 5rem;
-  min-width: 80%;
+  width: 80%;
 
   /* layout */
   display: flex;
@@ -22,6 +22,9 @@
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
   color: #eee;
+
+  /* sizing */
+  max-width: 100%;
 
   /* layout */
   margin: 0;
